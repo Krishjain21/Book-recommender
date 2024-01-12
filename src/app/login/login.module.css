@@ -1,0 +1,12 @@
+.hi{
+    background-color: #EEF5FF;
+    height: 100vh;
+}
+
+.loginEmail{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 10%;
+}

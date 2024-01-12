@@ -1,0 +1,270 @@
+.login_now_user {
+    border-radius: 8px;
+    border: solid 1px #080808;
+    background-color: #fff;
+    padding: 30px;
+
+  }
+  
+  .login_text1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #222;
+  }
+  
+  .login_text2 {
+    font-size: 14px;
+    margin-bottom: 30px;
+    color: #222;
+  }
+  
+  .signupText{
+    color: #1a73e8;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: underline;
+    cursor: pointer;
+
+  }
+  
+  .input_email {
+    margin-bottom: 14px;
+    float: left;
+    width: 100%;
+    position: relative;
+  }
+  
+  .input_email label {
+    font-size: 14px;
+    font-weight: 500;
+    float: left;
+    width: 100%;
+  }
+  
+  .input_password {
+    margin-bottom: 14px;
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-top: 14px;
+  }
+  
+  .input_password label {
+    font-size: 14px;
+    font-weight: 500;
+    float: left;
+    width: 100%;
+  }
+  
+  .mobile_code {
+    border: solid 1px #ccc;
+    background-color: #f8f8f8;
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 0px;
+    float: left;
+    padding: 0px 20px;
+    display: block;
+    position: relative;
+  }
+  
+  .input_email input {
+    height: 46px;
+    padding: 0px 0px;
+    width: 100%;
+    background: no-repeat;
+    border: none;
+    outline: none;
+  }
+  
+  .input_password input {
+    height: 46px;
+    padding: 0px 0px;
+    width: 100%;
+    background: no-repeat;
+    border: none;
+    outline: none;
+  }
+  
+  .mobile_code .line_str1 {
+    position: absolute;
+    height: 19px;
+    text-align: center;
+    left: 117px;
+    top: 14px;
+    width: 0px;
+    border: 1px solid #b7b7b7;
+  }
+  
+  .mobile_code img {
+    width: 7%;
+    float: left;
+    margin-right: 9px;
+    position: relative;
+    top: 14px;
+  }
+  
+  .mobile_code select {
+    border: none;
+    width: 13%;
+    float: left;
+    margin-right: 10px;
+    height: 46px;
+    background: #f8f8f8;
+  }
+  
+  .terms_text {
+    color: #919395;
+    font-size: 12px;
+    line-height: 1.6;
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+  }
+  
+  .terms_text a {
+    color: #24272c;
+    text-decoration: underline;
+  }
+  
+  .email_btns_dv1 .continue_btn_user {
+    padding: 16px 0px 15px;
+    border-radius: 50px;
+    background-color: #1a73e8;
+    border: solid 1px #1a73e8;
+    height: 50px;
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    text-align: center;
+    color: #fff;
+    line-height: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.9;
+    cursor: pointer;
+  }
+  
+  .continue_btn_user:hover {
+    opacity: 1;
+  }
+  
+  .email_btns_dv1 .login_btn_user {
+    padding: 16px 0px 15px;
+    border-radius: 50px;
+    background-color: #1b1b1b;
+    height: 50px;
+    width: 100%;
+    float: left;
+    margin-top: 12px;
+    text-align: center;
+    color: #fff;
+    line-height: 16px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .email_btns_dv1 {
+    float: left;
+    width: 100%;
+  }
+  
+  .striped {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    float: left;
+    width: 100%;
+  }
+  
+  .striped_line {
+    flex: auto;
+    flex-basis: auto;
+    flex-basis: auto;
+    border: none;
+    outline: none;
+    height: 1px;
+    background: #cccccc;
+  }
+  
+  .striped_text {
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: inherit;
+    color: #8b8b8b;
+    margin: 0 1rem;
+  }
+  
+  .method_btns_dv2 a {
+    border-radius: 50px;
+    border: solid 1px #ccc;
+    background-color: #fff;
+    height: 50px;
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    color: #222;
+    text-align: center;
+    line-height: 49px;
+    margin-bottom: 12px;
+  }
+  
+  .method_btns_dv2 a img {
+    position: relative;
+    top: 5px;
+    max-width: 5%;
+    margin-right: 2px;
+  }
+  
+  .method_btn_user:hover {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16) !important;
+  }
+  
+  .modalContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+  
+  .modalContent {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    top: 40px;
+    width: 760px;
+    height: auto;
+  }
+  
+  .closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .regform_error_field {
+    color: red;
+    font-size: 11px;
+    position: absolute;
+    bottom: -20px;
+  }
+  
+  /* .no_outline{
+    outline: none;
+  } */
